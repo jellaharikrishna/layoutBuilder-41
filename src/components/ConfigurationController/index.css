@@ -1,0 +1,29 @@
+.configuration-responsive {
+  background-color: #475569;
+  padding: 10px;
+}
+
+.configuration-container {
+  background-color: #475569;
+  width: 80%;
+  margin: auto;
+}
+.layout-heading {
+  color: white;
+  font-family: roboto;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+}
+.label-heading {
+  color: #f1f5f9;
+  font-family: roboto;
+  font-weight: 500;
+}

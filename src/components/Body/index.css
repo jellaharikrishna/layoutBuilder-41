@@ -1,0 +1,134 @@
+.body-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/**/
+.leftnavbar-container {
+  background-color: #e2e8f0;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+.leftnavbar-heading {
+  color: #475569;
+  font-family: roboto;
+  text-align: center;
+  font-size: 20px;
+}
+.leftnavbar-ul {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leftnavbar-li {
+  color: #64748b;
+  font-family: roboto;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .leftnavbar-container {
+    width: 30%;
+    flex-shrink: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .leftnavbar-heading {
+    text-align: left;
+  }
+  .leftnavbar-ul {
+    flex-direction: column;
+  }
+  .leftnavbar-li {
+    text-align: left;
+  }
+}
+
+/**/
+.content-container {
+  background-color: #f1f5f9;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+.content-heading {
+  color: #475569;
+  font-family: roboto;
+  font-size: 20px;
+  text-align: center;
+}
+.content-description {
+  color: #64748b;
+  font-family: roboto;
+  text-align: center;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 60%;
+    flex-grow: 1;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .content-heading {
+    text-align: left;
+  }
+  .content-description {
+    text-align: left;
+  }
+}
+
+/**/
+.rightnavbar-container {
+  background-color: #e2e8f0;
+  padding: 25px;
+}
+.rightnavbar-heading {
+  color: #475569;
+  font-family: roboto;
+  text-align: center;
+  font-size: 20px;
+}
+.rightnavbar-description-container {
+  display: flex;
+}
+.rightnavbar-description {
+  padding: 40px;
+  border: 1px solid #64748b;
+  color: #64748b;
+  font-family: roboto;
+  text-align: center;
+  font-size: 22px;
+  margin: 0;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .rightnavbar-container {
+    width: 30%;
+    flex-shrink: 0;
+  }
+  .rightnavbar-heading {
+    text-align: left;
+  }
+  .rightnavbar-description-container {
+    flex-direction: column;
+  }
+  .rightnavbar-description {
+    margin-bottom: 10px;
+  }
+}
